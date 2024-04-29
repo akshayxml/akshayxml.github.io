@@ -1,0 +1,32 @@
+///
+/// Dimension by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Box */
+
+	.box {
+		border-radius: _size(border-radius);
+		border: solid _size(border-width) _palette(border);
+		margin-bottom: _size(element-margin);
+		padding: 0.5em;
+
+		&.alt {
+			border: 0;
+			border-radius: 0;
+			padding: 0;
+		}
+
+		p {
+			margin: 0 0.5rem;
+		}
+
+		pre {
+			margin: 0 0.5rem;
+		}
+
+		&:hover {
+			background-color: _palette(border-bg);
+		}
+	}
