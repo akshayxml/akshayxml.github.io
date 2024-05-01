@@ -97,7 +97,7 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location}>
         <SEO
           title="Akshay M"
-          description="The space in the internet belonging to Akshay M"
+          description="Akshay M's internet real estate"
           image={pic}
           pathname="/"
           article

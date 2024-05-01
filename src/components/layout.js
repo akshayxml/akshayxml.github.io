@@ -39,7 +39,7 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'The space in the internet belonging to Akshay M' },
+              { name: 'description', content: 'Akshay M\'s internet real estate' },
               { name: 'keywords', content: 'Akshay M' },
             ]}
           >

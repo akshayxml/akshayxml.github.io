@@ -2,9 +2,9 @@ module.exports = {
   siteMetadata: {
     title: "Akshay M | akshayxml",
     author: "Akshay",
-    description: "The space in the internet belonging to Akshay M",
+    description: "Akshay M's internet real estate",
     url: "https://akshayxml.github.io",
-    image: "/images/favicon.png", // Path to your image you placed in the 'static' folder
+    image: "/images/favicon.png",
     twitterUsername: "@akshayxml",
   },
   plugins: [
