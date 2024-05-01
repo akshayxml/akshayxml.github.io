@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import SEO from '../components/SEO'
 
 import pic from '../images/bg.gif'
+import {Script} from "gatsby";
 
 class IndexPage extends React.Component {
   constructor(props) {

@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { trackEvent } from "gatsby-plugin-google-tagmanager";
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
@@ -14,9 +15,28 @@ const Header = (props) => (
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>About</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>work</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('project')}}>project</a></li>
+                <li>
+                    <a href="javascript:;" onClick={() => {
+                            props.onOpenArticle('intro');
+                            window.dataLayer.push({event: 'about-click'});
+                        }}>
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" onClick={() => {
+                        props.onOpenArticle('work');
+                        window.dataLayer.push({event: 'work-click'});
+                    }}>work
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" onClick={() => {
+                        props.onOpenArticle('project');
+                        window.dataLayer.push({event: 'project-click'});
+                    }}>projects
+                    </a>
+                </li>
                 {/*<li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>hobbies</a></li>*/}
             </ul>
         </nav>

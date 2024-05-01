@@ -15,3 +15,4 @@ package-lock.json
 akshayxml.github.io.iml
 public/
 .cache/
+.env
