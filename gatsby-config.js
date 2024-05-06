@@ -29,7 +29,7 @@ module.exports = {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: process.env.GTAG_MANAGER_ID,
-        includeInDevelopment: false
+        includeInDevelopment: true
       },
 
     },

@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Pdf from '../images/Akshay_Resume.pdf'
 
 class Main extends React.Component {
     render() {
@@ -20,7 +19,7 @@ class Main extends React.Component {
                     </p>
                     <p>
                         I am passionate about leveraging technology to drive innovation and solve complex challenges. With a strong foundation and diverse experience, I am eager to take on new challenges and contribute to impactful projects in the ever-evolving tech industry.</p>
-                    <p>Feel like working with me? Here's my complete <b><a href={Pdf}>resume</a></b></p>
+                    <p>Feel like working with me? Here's my complete <b><a href="https://drive.google.com/file/d/1F92PWaT9vALjFY8IrQvgKHyR8QRABOhV/view?usp=drive_link">resume</a></b></p>
                     <p>Have an amazing product idea? Let's brainstorm! Feel free to DM me.</p>
                     {close}
                 </article>
