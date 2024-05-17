@@ -1,11 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { trackEvent } from "gatsby-plugin-google-tagmanager";
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span className="icon fa-code-fork"></span>
+            <span className="icon-strategy inner"></span>
         </div>
         <div className="content">
             <div className="inner">

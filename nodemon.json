@@ -1,0 +1,6 @@
+{
+  "watch": ["src/", "gatsby-config.js", "gatsby-node.js"],
+  "ext": "js,jsx,ts,tsx,json,graphql",
+  "ignore": ["src/**/*.test.js", "src/**/*.spec.js"],
+  "exec": "gatsby develop"
+}
