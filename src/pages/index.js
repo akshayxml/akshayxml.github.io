@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 import SEO from '../components/SEO'
 
 import pic from '../images/bg.gif'
-import {Script} from "gatsby";
+import ThemeToggle from "../components/ThemeToggle";
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -105,6 +105,7 @@ class IndexPage extends React.Component {
         />
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">
+            <ThemeToggle/>
             <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
             <Main
               isArticleVisible={this.state.isArticleVisible}

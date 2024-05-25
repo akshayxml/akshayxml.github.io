@@ -1,0 +1,8 @@
+body {
+  --bg: url('../../images/lightbg.gif');
+  --primary-color: black
+}
+
+body.dark {
+  --bg: url('../../images/darkbg.gif');
+}

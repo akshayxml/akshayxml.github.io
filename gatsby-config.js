@@ -31,8 +31,8 @@ module.exports = {
         id: process.env.GTAG_MANAGER_ID,
         includeInDevelopment: true
       },
-
     },
+    'gatsby-plugin-dark-mode',
   ],
 
 }
