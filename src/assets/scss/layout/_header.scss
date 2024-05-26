@@ -15,10 +15,10 @@
 			'filter #{_duration(article)} ease-in-out',
 			'opacity #{_duration(article)} ease-in-out',
 		));
-		background-image: -moz-radial-gradient(rgba(0,0,0,0.25) 25%, rgba(0,0,0,0) 55%);
-		background-image: -webkit-radial-gradient(rgba(0,0,0,0.25) 25%, rgba(0,0,0,0) 55%);
-		background-image: -ms-radial-gradient(rgba(0,0,0,0.25) 25%, rgba(0,0,0,0) 55%);
-		background-image: radial-gradient(rgba(0,0,0,0.25) 25%, rgba(0,0,0,0) 55%);
+		background-image: -moz-radial-gradient(rgba(var(--max-rgb),0.25) 25%, rgba(var(--max-rgb),0) 55%);
+		background-image: -webkit-radial-gradient(rgba(var(--max-rgb),0.25) 25%, rgba(var(--max-rgb),0) 55%);
+		background-image: -ms-radial-gradient(rgba(var(--max-rgb),0.25) 25%, rgba(var(--max-rgb),0) 55%);
+		background-image: radial-gradient(rgba(var(--max-rgb),0.25) 25%, rgba(var(--max-rgb),0) 55%);
 		max-width: 100%;
 		text-align: center;
 

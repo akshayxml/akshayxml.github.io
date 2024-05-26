@@ -1,10 +1,20 @@
   .themeTogglerButton{
     font-size: 3em;
+    width: fit-content;
     cursor: pointer;
+    transform: scale(0);
+    animation: pop 1s forwards;
+    color: var(--primary-color);
+    text-shadow: 1px 1px 4px var(--secondary-color);
   }
 
-  .themeTogglerButton.light{
-    font-size: 30em;
-    color: black;
-    cursor: pointer;
+  @keyframes pop {
+    from {
+      transform: scale(1);
+      opacity: 0; /* Initially invisible */
+    }
+    to {
+      transform: scale(1); /* Animate to normal scale */
+      opacity: 1; /* Animate to full opacity */
+    }
   }

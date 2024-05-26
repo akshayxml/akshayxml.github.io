@@ -1,8 +1,17 @@
 body {
   --bg: url('../../images/lightbg.gif');
-  --primary-color: black
+  --primary-color: black;
+  --secondary-color: white;
+  --bg-overlay: rgba(169,169,169,0.5);
+  --bg-card: rgba(219,219,219,0.5);
+  --max-rgb: 255,255,255;
 }
 
 body.dark {
   --bg: url('../../images/darkbg.gif');
+  --primary-color: white;
+  --secondary-color: black;
+  --bg-overlay: rgba(19,21,25,0.5);
+  --bg-card: rgba(19,19,19,0.5);
+  --max-rgb: 0,0,0;
 }
