@@ -8,6 +8,7 @@ import SEO from '../components/SEO'
 
 import pic from '../images/bg.gif'
 import ThemeToggle from "../components/ThemeToggle";
+import Background from "../components/Background";
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -117,7 +118,7 @@ class IndexPage extends React.Component {
             />
             <Footer timeout={this.state.timeout} />
           </div>
-          <div id="bg"></div>
+          <Background/>
         </div>
       </Layout>
     )
