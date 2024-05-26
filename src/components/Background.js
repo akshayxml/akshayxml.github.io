@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import dark from "../images/darkbg.mp4";
+import dark from "../images/darkbg-sm.mp4";
 import light from "../images/lightbg.mp4";
 
 const Background = () => {
