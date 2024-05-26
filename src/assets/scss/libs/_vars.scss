@@ -36,8 +36,8 @@
 		bg-overlay:					var(--bg-overlay),
 		fg:							var(--primary-color),
 		fg-bold:					var(--primary-color),
-		fg-light:					rgba(var(--fg-light),0.5),
+		fg-light:					rgba(var(--max-rgb),0.5),
 		border:						var(--primary-color),
-		border-bg:					rgba(var(--border-bg),0.075),
+		border-bg:					rgba(var(--max-rgb),0.275),
 		border-bg-alt:				rgba(255,255,255,0.175)
 	);

@@ -44,7 +44,6 @@ const Header = (props) => (
 
 Header.propTypes = {
     onOpenArticle: PropTypes.func,
-    timeout: PropTypes.bool
 }
 
 export default Header

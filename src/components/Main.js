@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 class Main extends React.Component {
     render() {
 
-        let close = <div className="close" onClick={() => {this.props.onCloseArticle()}}></div>
+        let close = <div className="close" onClick={() => {this.props.onCloseArticle()}}><i className="icon-close"></i></div>
 
         return (
             <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
