@@ -1,3 +1,7 @@
+  .switch-container{
+
+  }
+
   .themeTogglerButton{
     font-size: 3em;
     width: fit-content;
@@ -10,7 +14,7 @@
 
   @keyframes pop {
     from {
-      transform: scale(1);
+      transform: scale(0);
       opacity: 0; /* Initially invisible */
     }
     to {

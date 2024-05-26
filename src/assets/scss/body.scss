@@ -1,4 +1,4 @@
-body {
+body.light {
   --bg: url('../../images/lightbg.gif');
   --primary-color: black;
   --secondary-color: white;
@@ -7,7 +7,7 @@ body {
   --max-rgb: 255,255,255;
 }
 
-body.dark {
+body {
   --bg: url('../../images/darkbg.gif');
   --primary-color: white;
   --secondary-color: black;

@@ -10,12 +10,14 @@ const ThemeToggle = (props) => (
             }
 
             return (
-                <span
-                    className={theme === 'dark' ? "icon-sun themeTogglerButton" : "icon-moon1 themeTogglerButton"}
-                    onClick={() => toggleTheme(theme === 'dark' ? 'light' : 'dark')}
-                    style={props.isArticleVisible ? {visibility: 'hidden'} : {visibility: 'visible'}}
-                >
-                </span>
+                <div className="switch-container" >
+                    <span
+                        className={theme === 'dark' ? "icon-darkswitch themeTogglerButton" : "icon-lightswitch themeTogglerButton"}
+                        onClick={() => toggleTheme(theme === 'dark' ? 'light' : 'dark')}
+                        style={props.isArticleVisible ? {visibility: 'hidden'} : {visibility: 'visible'}}
+                    >
+                    </span>
+                </div>
             );
         }}
     </ThemeToggler>
