@@ -105,7 +105,7 @@ class IndexPage extends React.Component {
         />
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">
-            <ThemeToggle/>
+            <ThemeToggle isArticleVisible={this.state.isArticleVisible}/>
             <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
             <Main
               isArticleVisible={this.state.isArticleVisible}
