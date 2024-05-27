@@ -1,8 +1,8 @@
 import React, {useEffect} from "react";
 import dark from "../images/darkbg-sm.mp4";
 import light from "../images/lightbg.mp4";
-import darkposter from "../images/darkbg.png";
-import lightposter from "../images/lightbg.png";
+import darkposter from "../images/darkbg.webp";
+import lightposter from "../images/lightbg.webp";
 
 
 const Background = () => {
