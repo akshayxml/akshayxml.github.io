@@ -1,6 +1,9 @@
 import React, {useEffect} from "react";
 import dark from "../images/darkbg-sm.mp4";
 import light from "../images/lightbg.mp4";
+import darkposter from "../images/darkbg.png";
+import lightposter from "../images/lightbg.png";
+
 
 const Background = () => {
     const getTheme = () => {
@@ -44,10 +47,12 @@ const Background = () => {
 
     return (
         <div id="bg">
-            <video autoPlay loop muted playsInline id="dark-video" className="video" style={{ display: 'none' }}>
+            <video autoPlay loop muted playsInline id="dark-video"
+                   className="video" style={{ display: 'none' }} poster={darkposter}>
                 <source src={dark} type="video/mp4"></source>>
             </video>
-            <video autoPlay loop muted playsInline id="light-video" className="video" style={{ display: 'none' }}>
+            <video autoPlay loop muted playsInline id="light-video"
+                   className="video" style={{ display: 'none' }} poster={lightposter}>
                 <source src={light} type="video/mp4"></source>
             </video>
         </div>
