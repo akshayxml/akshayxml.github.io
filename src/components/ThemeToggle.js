@@ -25,7 +25,7 @@ const ThemeToggle = (props) => (
 
 
 ThemeToggle.propTypes = {
-    isArticleVisible: PropTypes.string
+    isArticleVisible: PropTypes.bool
 }
 
 export default ThemeToggle;

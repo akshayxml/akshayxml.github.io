@@ -26,7 +26,7 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     {
-      resolve: "gatsby-plugin-google-tagmanager",
+      resolve: "gatsby-plugin-google-tagmanager-timeout",
       options: {
         id: process.env.GTAG_MANAGER_ID,
         includeInDevelopment: true
