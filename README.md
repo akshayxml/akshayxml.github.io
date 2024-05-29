@@ -9,7 +9,7 @@ Welcome to my personal portfolio project! This portfolio showcases my projects, 
 - Work Experience Section: Highlights my current and previous work experiences.
 - Social Handles: Links to my social handles
 - Light and Dark modes
-- Fast :zap: : Scores 95 on [Google PageSpeed](https://pagespeed.web.dev/analysis/https-akshayxml-github-io/0x47s7093y?form_factor=mobile)!
+- Fast :zap: : Scores 95 on [Google PageSpeed Mobile](https://pagespeed.web.dev/analysis/https-akshayxml-github-io/0x47s7093y?form_factor=mobile) test and 97 on [Desktop](https://pagespeed.web.dev/analysis/https-akshayxml-github-io/0x47s7093y?form_factor=desktop)!
 
 ## Technologies
 - Frontend: React, Gatsby
