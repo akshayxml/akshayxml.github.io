@@ -1,5 +1,4 @@
 body.light {
-  --bg: url('../../images/lightbg.gif');
   --primary-color: black;
   --secondary-color: white;
   --bg-overlay: rgba(169,169,169,0.5);
@@ -8,7 +7,6 @@ body.light {
 }
 
 body {
-  --bg: url('../../images/darkbg.gif');
   --primary-color: white;
   --secondary-color: black;
   --bg-overlay: rgba(19,21,25,0.5);
