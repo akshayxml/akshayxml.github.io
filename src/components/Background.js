@@ -1,8 +1,6 @@
 import React, {useEffect} from "react";
 import dark from "../images/darkbg-sm.mp4";
 import light from "../images/lightbg.mp4";
-import darkwebm from "../images/darkbg-sm.webm";
-import lightwebm from "../images/lightbg.webm";
 import darkposter from "../images/darkbg.webp";
 import lightposter from "../images/lightbg.webp";
 
@@ -52,12 +50,10 @@ const Background = () => {
             <video autoPlay loop muted playsInline id="dark-video"
                    className="video" style={{ display: 'none' }} poster={darkposter}>
                 <source src={dark} type="video/mp4"></source>>
-                <source src={darkwebm} type="video/mp4"></source>>
             </video>
             <video autoPlay loop muted playsInline id="light-video"
                    className="video" style={{ display: 'none' }} poster={lightposter}>
                 <source src={light} type="video/mp4"></source>
-                <source src={lightwebm} type="video/mp4"></source>>
             </video>
         </div>
     )
