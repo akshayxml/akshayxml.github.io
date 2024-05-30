@@ -36,7 +36,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
       options: {
-        disabled: true
+        disable: true,
+        // devMode: true
       },
     }
   ]

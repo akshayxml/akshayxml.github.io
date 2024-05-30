@@ -8,8 +8,10 @@ Welcome to my personal portfolio project! This portfolio showcases my projects, 
 - Projects Section: Displays various projects with details and links.
 - Work Experience Section: Highlights my current and previous work experiences.
 - Social Handles: Links to my social handles
-- Light and Dark modes
-- Fast :zap: : Scores 97 on [Google PageSpeed Mobile](https://pagespeed.web.dev/analysis/https-akshayxml-github-io/kwy0i26af3?form_factor=mobile) test and 98 on [Desktop](https://pagespeed.web.dev/analysis/https-akshayxml-github-io/kwy0i26af3?form_factor=desktop)!
+- Light and Dark mode support
+- Google Analytics
+- Lightning Fast  :zap: , even with Google Tag Manager : Lighthouse and PageSpeed Passed
+![lighthouse.png](./lighthouse.png) 
 
 ## Technologies
 - Frontend: React, Gatsby
