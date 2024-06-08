@@ -45,6 +45,8 @@ class IndexPage extends React.Component {
   }
 
   handleOpenArticle(article) {
+    if(this.state.disabledCloseButton === false)
+      return;
     this.state.disabledCloseButton = false;
 
     this.setState({
@@ -92,7 +94,7 @@ class IndexPage extends React.Component {
 
   handleClickOutside(event) {
     if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
-      if (this.state.isArticleVisible) {
+      if (this.state.timeout) {
         this.handleCloseArticle();
       }
     }

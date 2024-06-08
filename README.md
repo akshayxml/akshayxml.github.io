@@ -11,7 +11,7 @@ Welcome to my personal portfolio project! This portfolio showcases my projects, 
 - Light and Dark mode support
 - Google Analytics
 - Lightning Fast  :zap: , even with Google Tag Manager : Lighthouse and PageSpeed Passed
-![lighthouse.png](./lighthouse.png) 
+![lighthouse.gif](./lighthouse.gif) 
 
 ## Technologies
 - Frontend: React, Gatsby

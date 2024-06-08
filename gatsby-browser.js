@@ -27,11 +27,6 @@ function initGTM() {
     };
 
     document.head.appendChild(script);
-
-    let noscript = document.createElement('noscript');
-    noscript.innerHTML = `<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-TPLCW4NT\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>`
-
-    document.body.appendChild(noscript);
 }
 
 exports.onClientEntry = function() {
