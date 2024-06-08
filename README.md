@@ -22,4 +22,4 @@ Welcome to my personal portfolio project! This portfolio showcases my projects, 
 
 
 **Check It Out!** :rocket:
-<a href="https://akshayxml.github.io" target="_blank">akshayxml.github.io</a>
+<a href="https://akshayxml.com" target="_blank">akshayxml.com</a>
