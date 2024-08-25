@@ -12,13 +12,14 @@ class Main extends React.Component {
                 <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none', borderRadius:"10px"}}>
                     <h2 className="major">About Me</h2>
                     <p>
-                        With a solid foundation in software development, I bring over two years of experience as a Software Development Engineer at <b>Media.net</b>. I have completed my Master's degree in Computer Science and Engineering at <b>IIIT Hyderabad</b>, where I honed my skills and acquired a deep understanding of technology.
+                        I'm currently part of the <b>Google</b> Distributed Cloud Air-Gapped team, where I'm excited to take on new and complex challenges. Prior to joining Google, I acquired over 2 years of hands-on experience as a Software Development Engineer at <b>Media.net</b>, building a solid foundation in software development. 
                     </p>
                     <p>
-                        During my academic journey, I had the opportunity to undertake internships at esteemed organizations such as <b>Samsung Research Institute</b> and <b>IIST Trivandrum</b>. These experiences not only expanded my knowledge but also instilled in me the importance of practical application and problem-solving in real-world scenarios.
+                        My journey in tech started with a Master's degree in Computer Science and Engineering from <b>IIIT Hyderabad</b> where I developed my technological abilities as well as established an interest for development. During my college days, I also had the opportunity to work on research internships at <b>Samsung Research Institute</b> and <b>IIST Trivandrum</b>. 
                     </p>
                     <p>
-                        I am passionate about leveraging technology to drive innovation and solve complex challenges. With a strong foundation and diverse experience, I am eager to take on new challenges and contribute to impactful projects in the ever-evolving tech industry.</p>
+                        I am passionate about using technology to make a difference; due to this fact, I am very eager to be part of more projects that can impact the continuously growing tech industry.
+                    </p>
                     <p>Feel like working with me? Here's my complete <b><a href="https://drive.google.com/file/d/1F92PWaT9vALjFY8IrQvgKHyR8QRABOhV/view?usp=drive_link">resume</a></b></p>
                     <p>Have an amazing product idea? Let's brainstorm! Feel free to DM me.</p>
                     {close}
