@@ -28,13 +28,18 @@ class Main extends React.Component {
                 <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none', borderRadius:"10px"}}>
                     <h2 className="major">Work Experience</h2>
                     <div className="box">
-                        <p><strong>Media.net</strong> | Software Development Engineer | 07/22 - Present</p>
-                        <p>Working on complex algorithms to identify the right ads for the user based on contextual and profile information.</p>
+                        <p><strong>Google</strong> | Software Engineer II | 08/24 - Present</p>
+                        <p>Working with the Google Distributed Cloud air-gapped platform services team.</p>
+                        <code>Golang</code> <code>Kubernetes</code> 
+                    </div>
+                    <div className="box">
+                        <p><strong>Media.net</strong> | Software Development Engineer | 07/22 - 08/24</p>
+                        <p>Reduced the response time of Ads Serving API by 70% and Redis Space Consumption by 85%. Optimized the Redis Operations and implemented the Custom Redis Bitmap Module to efficiently implement the needed Redis Set operations(intersect, difference, union).</p>
                         <code>Java</code> <code>NodeJs</code> <code>Python</code> <code>Kafka</code> <code>Redis</code>
                     </div>
                     <div className="box">
                         <p><strong>Samsung Research Institute, Bangalore</strong> | Student Trainee | 06/21 - 07/21</p>
-                        <p>Worked in the Visual Intelligence team to explore the opportunities for research in Neural Rendering in the context of AR.</p>
+                        <p>Independently researched state-of-the-art Neural Rendering algorithms to stay current with the field and identify potential applications in AR.</p>
                         <code>Augmented Reality</code>
                     </div>
                     <div className="box">
