@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 
 import Header from '../components/Header'
 import Main from '../components/Main'
-import Footer from '../components/Footer'
+import Footer from '../components/footer'
 import SEO from '../components/SEO'
 
 import pic from '../images/bg.gif'
