@@ -27,7 +27,7 @@
     "dev": "gatsby develop --host=0.0.0.0",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b master",
+    "deploy": "gatsby build && cp CNAME ./public && gh-pages -d public -b master",
     "start": "nodemon"
   },
   "devDependencies": {
