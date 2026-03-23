@@ -1,0 +1,15 @@
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  {{ with .Get "date" }}<div class="timeline-date">{{ . }}</div>{{ end }}
+  {{ with .Get "title" }}<h3 class="timeline-title">{{ . }}</h3>{{ end }}
+  {{ with .Get "stack" }}
+  <div class="timeline-tech-container">
+    {{ range split . "," }}
+    <span class="timeline-tech">{{ trim . " " }}</span>
+    {{ end }}
+  </div>
+  {{ end }}
+  <div class="timeline-body">
+    {{ .Inner | markdownify }}
+  </div>
+</div>
