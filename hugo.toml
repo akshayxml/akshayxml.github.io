@@ -1,0 +1,68 @@
+baseURL = 'https://akshayxml.com/'
+languageCode = 'en-us'
+title = 'Akshay M'
+
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-sid/hugo-blog-awesome"
+
+[menu]
+  [[menu.main]]
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    pageRef="experience"
+    name = 'Experience'
+    url = '/experience/'
+    weight = 25
+  [[menu.main]]
+    pageRef="about"
+    name = 'About'
+    url = '/about/'
+    weight = 30
+
+[params]
+  sitename = "Akshay M"
+  defaultColor = "dark" # set color mode: dark, light, auto
+  description = "My real estate on the internet"
+  toc = false
+  tocOpen = false
+  goToTop = true
+  dateFormat = ""
+  rssFeedDescription = "summary"
+
+[params.author]
+  avatar = "avatar.jpg"
+  intro = "Akshay M"
+  name = "Akshay M"
+  description = "Software Engineer"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/akshayxml/"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/akshayxml"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:akshayknr7@gmail.com"
+
+[[params.socialIcons]]
+  name = "leetcode"
+  url = "https://leetcode.com/u/akshayxml/"
+
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/akshayxml"
+
+[[params.socialIcons]]
+  name = "strava"
+  url = "https://www.strava.com/athletes/43683785"
+
+[[params.socialIcons]]
+  name = "instagram"
+  url = "https://www.instagram.com/akshayxml/"

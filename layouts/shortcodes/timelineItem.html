@@ -1,0 +1,24 @@
+<div class="timeline-item">
+  {{ if .Get "logo" }}
+  {{ $logo := .Get "logo" }}
+  {{ $title := .Get "title" }}
+  <div class="timeline-avatar">
+    <img src="{{ $logo }}" alt="{{ $title }} logo">
+  </div>
+  {{ else }}
+  <div class="timeline-dot"></div>
+  {{ end }}
+  {{ with .Get "location" }}<div class="timeline-location">{{ . }}</div>{{ end }}
+  {{ with .Get "date" }}<div class="timeline-date">{{ . }}</div>{{ end }}
+  {{ with .Get "title" }}<h3 class="timeline-title">{{ . }}</h3>{{ end }}
+  {{ with .Get "stack" }}
+  <div class="timeline-tech-container">
+    {{ range split . "," }}
+    <span class="timeline-tech">{{ trim . " " }}</span>
+    {{ end }}
+  </div>
+  {{ end }}
+  <div class="timeline-body">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

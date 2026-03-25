@@ -16,3 +16,4 @@ akshayxml.github.io.iml
 public/
 .cache/
 .env
+_vendor
