@@ -13,11 +13,6 @@ title = 'Akshay M'
     url = '/'
     weight = 10
   [[menu.main]]
-    pageRef="posts"
-    name = 'Posts'
-    url = '/posts/'
-    weight = 20
-  [[menu.main]]
     pageRef="experience"
     name = 'Experience'
     url = '/experience/'
@@ -45,12 +40,12 @@ title = 'Akshay M'
   description = "Software Engineer"
 
 [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/akshayxml"
-
-[[params.socialIcons]]
   name = "linkedin"
   url = "https://www.linkedin.com/in/akshayxml/"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/akshayxml"
 
 [[params.socialIcons]]
   name = "email"
@@ -61,13 +56,13 @@ title = 'Akshay M'
   url = "https://leetcode.com/u/akshayxml/"
 
 [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/akshayxml"
+
+[[params.socialIcons]]
   name = "strava"
   url = "https://www.strava.com/athletes/43683785"
 
 [[params.socialIcons]]
   name = "instagram"
   url = "https://www.instagram.com/akshayxml/"
-
-[[params.socialIcons]]
-  name = "twitter"
-  url = "https://twitter.com/akshayxml"

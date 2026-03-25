@@ -1,5 +1,6 @@
 <div class="timeline-item">
   <div class="timeline-dot"></div>
+  {{ with .Get "location" }}<div class="timeline-location">{{ . }}</div>{{ end }}
   {{ with .Get "date" }}<div class="timeline-date">{{ . }}</div>{{ end }}
   {{ with .Get "title" }}<h3 class="timeline-title">{{ . }}</h3>{{ end }}
   {{ with .Get "stack" }}
