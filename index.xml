@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Akshay M</title><link>https://akshayxml.com/</link><description>Recent content on Akshay M</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 25 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://akshayxml.com/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://akshayxml.com/about/</link><pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate><guid>https://akshayxml.com/about/</guid><description>&lt;p&gt;I&amp;rsquo;m currently part of the Google Distributed Cloud Air-Gapped team, contributing to the DNS infrastructure. Prior to joining Google, I acquired over 2 years of hands-on experience as a Software Development Engineer at Media.net, building a solid foundation in software development.&lt;/p&gt;
+&lt;p&gt;My journey in tech started with a Master&amp;rsquo;s degree in Computer Science and Engineering from IIIT Hyderabad where I developed my technological abilities as well as established an interest for development. During my college days, I also had the opportunity to work on research internships at Samsung Research Institute and IIST Trivandrum.&lt;/p&gt;</description></item><item><title>Experience</title><link>https://akshayxml.com/experience/</link><pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate><guid>https://akshayxml.com/experience/</guid><description>&lt;p&gt;Here is a summary of my professional work experience.&lt;/p&gt;
+&lt;div class="timeline-container"&gt;
+&lt;div class="timeline-item"&gt;
+&lt;div class="timeline-avatar"&gt;
+&lt;img src="https://akshayxml.com/images/google.png" alt="Software Engineer II at Google logo"&gt;
+&lt;/div&gt;
+&lt;div class="timeline-location"&gt;Bengaluru, India&lt;/div&gt;
+&lt;div class="timeline-date"&gt;08/2024 - Present&lt;/div&gt;
+&lt;h3 class="timeline-title"&gt;Software Engineer II at Google&lt;/h3&gt;
+&lt;div class="timeline-tech-container"&gt;
+&lt;span class="timeline-tech"&gt;Go&lt;/span&gt;
+&lt;span class="timeline-tech"&gt;Kubernetes&lt;/span&gt;
+&lt;span class="timeline-tech"&gt;Distributed Systems&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline-body"&gt;
+&lt;ul&gt;
+&lt;li&gt;Working with the Google Distributed Cloud air-gapped platform services team.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline-item"&gt;
+&lt;div class="timeline-avatar"&gt;
+&lt;img src="https://akshayxml.com/images/media.net.png" alt="Software Engineer at Media.net logo"&gt;
+&lt;/div&gt;
+&lt;div class="timeline-location"&gt;Remote&lt;/div&gt;
+&lt;div class="timeline-date"&gt;07/2022 - 08/2024&lt;/div&gt;
+&lt;h3 class="timeline-title"&gt;Software Engineer at Media.net&lt;/h3&gt;
+&lt;div class="timeline-tech-container"&gt;
+&lt;span class="timeline-tech"&gt;Java&lt;/span&gt;
+&lt;span class="timeline-tech"&gt;NodeJS&lt;/span&gt;
+&lt;span class="timeline-tech"&gt;Redis&lt;/span&gt;
+&lt;span class="timeline-tech"&gt;Python&lt;/span&gt;
+&lt;span class="timeline-tech"&gt;Kafka&lt;/span&gt;
+&lt;span class="timeline-tech"&gt;Microservices&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline-body"&gt;
+&lt;ul&gt;
+&lt;li&gt;Reduced the response time of Ads Serving API by 70% and Redis Space Consumption by 85%.&lt;/li&gt;
+&lt;li&gt;Optimized the Redis Operations and implemented the Custom Redis Bitmap Module to efficiently implement the needed Redis Set operations(intersect, difference, union).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline-item"&gt;
+&lt;div class="timeline-avatar"&gt;
+&lt;img src="https://akshayxml.com/images/samsung.webp" alt="Student Trainee at Samsung Research Institute logo"&gt;
+&lt;/div&gt;
+&lt;div class="timeline-location"&gt;Bengaluru, India&lt;/div&gt;
+&lt;div class="timeline-date"&gt;05/2021 - 07/2021&lt;/div&gt;
+&lt;h3 class="timeline-title"&gt;Student Trainee at Samsung Research Institute&lt;/h3&gt;
+&lt;div class="timeline-tech-container"&gt;
+&lt;span class="timeline-tech"&gt;Augmented Reality&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline-body"&gt;
+&lt;ul&gt;
+&lt;li&gt;Independently researched state-of-the-art Neural Rendering algorithms to stay current with the field and identify potential applications in AR.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline-item"&gt;
+&lt;div class="timeline-avatar"&gt;
+&lt;img src="https://akshayxml.com/images/qburst.png" alt="Engineer at QBurst Technologies logo"&gt;
+&lt;/div&gt;
+&lt;div class="timeline-location"&gt;Kochi, India&lt;/div&gt;
+&lt;div class="timeline-date"&gt;07/2019 - 08/2020&lt;/div&gt;
+&lt;h3 class="timeline-title"&gt;Engineer at QBurst Technologies&lt;/h3&gt;
+&lt;div class="timeline-tech-container"&gt;
+&lt;span class="timeline-tech"&gt;Salesforce&lt;/span&gt;
+&lt;span class="timeline-tech"&gt;Apex&lt;/span&gt;
+&lt;span class="timeline-tech"&gt;VisualForce&lt;/span&gt;
+&lt;span class="timeline-tech"&gt;Lightning Components&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline-body"&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented customer-based solutions and developed products on the Force.com platform using Apex, VisualForce, and Lightning Components.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="timeline-item"&gt;
+&lt;div class="timeline-avatar"&gt;
+&lt;img src="https://akshayxml.com/images/iist.png" alt="Research Intern at IIST Trivandrum logo"&gt;
+&lt;/div&gt;
+&lt;div class="timeline-location"&gt;Trivandrum, India&lt;/div&gt;
+&lt;div class="timeline-date"&gt;06/2018 - 07/2018&lt;/div&gt;
+&lt;h3 class="timeline-title"&gt;Research Intern at IIST Trivandrum&lt;/h3&gt;
+&lt;div class="timeline-tech-container"&gt;
+&lt;span class="timeline-tech"&gt;Complex Networks&lt;/span&gt;
+&lt;span class="timeline-tech"&gt;Python&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="timeline-body"&gt;
+&lt;ul&gt;
+&lt;li&gt;Worked under Dr. B.S. Manoj on Complex Networks to find out the anchor nodes in different types of networks which reduces the average shortest path length in the network by the maximum.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.timeline-container {
+position: relative;
+max-width: 800px;
+margin: 2.5rem auto;
+padding-left: 2rem;
+}
+.timeline-container::before {
+content: '';
+position: absolute;
+top: 0;
+bottom: 0;
+left: 8px;
+width: 2px;
+background: #e5e7eb;
+border-radius: 1px;
+}
+.dark .timeline-container::before {
+background: #374151;
+}
+.timeline-item {
+position: relative;
+margin-bottom: 2rem;
+padding: 1.5rem;
+border-radius: 12px;
+background: #ffffff;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+border: 1px solid rgba(0, 0, 0, 0.04);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.timeline-item:hover {
+transform: translateY(-2px);
+box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+.dark .timeline-item {
+background: #1f2228;
+border: 1px solid rgba(255, 255, 255, 0.05);
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.dark .timeline-item:hover {
+box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+.timeline-dot {
+position: absolute;
+top: 1.5rem;
+left: -2rem;
+width: 14px;
+height: 14px;
+border-radius: 50%;
+background: #4f46e5;
+border: 3px solid #ffffff;
+box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+transform: translateX(1px);
+transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+.timeline-item:hover .timeline-dot {
+background: #6366f1;
+box-shadow: 0 0 0 5px rgba(79, 70, 229, 0.25);
+transform: translateX(1px) scale(1.1);
+}
+.dark .timeline-dot {
+border-color: #1f2228;
+background: #818cf8;
+box-shadow: 0 0 0 3px rgba(129, 140, 248, 0.15);
+}
+.dark .timeline-item:hover .timeline-dot {
+background: #a5b4fc;
+box-shadow: 0 0 0 5px rgba(129, 140, 248, 0.25);
+}
+.timeline-avatar {
+position: absolute;
+top: 1.0rem;
+left: -40px;
+width: 32px;
+height: 32px;
+border-radius: 50%;
+background: #ffffff;
+border: 2px solid #e5e7eb;
+box-shadow: 0 0 0 4px #ffffff;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+z-index: 10;
+}
+.timeline-avatar img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.dark .timeline-avatar {
+border-color: #374151;
+background: #1f2228;
+box-shadow: 0 0 0 4px #1f2228;
+}
+.timeline-date {
+font-size: 0.85rem;
+font-weight: 600;
+color: #4f46e5;
+margin-bottom: 0.5rem;
+display: inline-block;
+padding: 0.2rem 0.6rem;
+background: rgba(79, 70, 229, 0.08);
+border-radius: 9999px;
+letter-spacing: 0.025em;
+}
+.dark .timeline-date {
+color: #818cf8;
+background: rgba(129, 140, 248, 0.1);
+}
+.timeline-location {
+position: absolute;
+top: 1.5rem;
+right: 1.5rem;
+font-size: 0.85rem;
+color: #6b7280;
+font-weight: 500;
+}
+.dark .timeline-location {
+color: #9ca3af;
+}
+.timeline-title {
+margin: 0 0 0.5rem 0 !important;
+font-size: 1.3rem;
+font-weight: 700;
+}
+.timeline-body {
+font-size: 0.95rem;
+line-height: 1.6;
+color: #4b5563;
+}
+.timeline-body&gt;*:last-child {
+margin-bottom: 0;
+}
+.timeline-body ul {
+margin-top: 0.5rem;
+padding-left: 1.25rem;
+}
+.dark .timeline-body {
+color: #9ca3af;
+}
+.timeline-tech-container {
+display: flex;
+flex-wrap: wrap;
+gap: 0.5rem;
+margin-bottom: 0.75rem;
+}
+.timeline-tech {
+font-size: 0.75rem;
+font-weight: 500;
+padding: 0.15rem 0.5rem;
+background: #f3f4f6;
+color: #4b5563;
+border-radius: 6px;
+border: 1px solid #e5e7eb;
+}
+.dark .timeline-tech {
+background: #374151;
+color: #d1d5db;
+border-color: #4b5563;
+}
+&lt;/style&gt;</description></item></channel></rss>
