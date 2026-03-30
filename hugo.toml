@@ -26,7 +26,7 @@ title = 'Akshay M'
 [params]
   sitename = "Akshay M"
   defaultColor = "dark" # set color mode: dark, light, auto
-  description = "My real estate on the internet"
+  description = "Akshay M's real estate on the internet"
   toc = false
   tocOpen = false
   goToTop = true
