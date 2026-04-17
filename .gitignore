@@ -18,3 +18,4 @@ public/
 .env
 _vendor
 public
+resources/
