@@ -12,6 +12,14 @@
                         $configDateFormat }} </time>
                 </div>
                 {{ end }}
+                {{ with .GetTerms "tags" }}
+                <div class="post-tags" style="font-size: 0.85rem; opacity: 0.8; margin-top: 0.5rem;">
+                    Tags:
+                    {{ range . }}
+                    <a href="{{ .RelPermalink }}" style="margin-right: 0.5rem;">#{{ .LinkTitle }}</a>
+                    {{ end }}
+                </div>
+                {{ end }}
             </header>
             {{ partial "toc.html" .}}
             <div class="page-content">

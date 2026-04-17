@@ -2,9 +2,10 @@
 title: "The Maths behind Python Dictionary probing"
 date: 2026-04-17
 draft: false
+tags: ["python", "data-structures", "algorithms"]
 ---
 
-My college friend [Adarsh](https://www.linkedin.com/in/adarsh-d/) invited me to speak about Python dictionary internals for the monthly [Python Deep Dive Series](https://trivandrumpython.github.io/events/deep-dive-python-dictionary-internals/). He was organising this series in collaboration with the [Trivandrum Python Community](https://trivandrumpython.github.io/). I happily accepted the offer and this turned out to be an excellent learning opportunity for me as well.
+Last month, my college friend [Adarsh](https://www.linkedin.com/in/adarsh-d/) invited me to speak about Python dictionary internals for the monthly [Python Deep Dive Series](https://trivandrumpython.github.io/events/deep-dive-python-dictionary-internals/). He was organising this series in collaboration with the [Trivandrum Python Community](https://trivandrumpython.github.io/). I happily accepted the offer and this turned out to be an excellent learning opportunity for me as well.
 
 It was fascinating to learn about the different trade-offs that were made in the design of Python dictionaries. One particular thing that impressed me was the use of pseudo-random probing sequence to resolve hash collisions. I will be diving deeper into just this aspect of Python dictionaries in this blog post. By the way, if you would like to listen to the entire talk, you can find the recording here: [Youtube Live Stream](https://www.youtube.com/watch?v=WGodjzWGzis).
 
