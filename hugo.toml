@@ -16,12 +16,17 @@ title = 'Akshay M'
     pageRef="experience"
     name = 'Experience'
     url = '/experience/'
-    weight = 25
+    weight = 20
   [[menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'
-    weight = 30
+    weight = 15
+  [[menu.main]]
+    pageRef="blog"
+    name = 'Blog'
+    url = '/blog/'
+    weight = 25
 
 [params]
   sitename = "Akshay M"
@@ -32,6 +37,7 @@ title = 'Akshay M'
   goToTop = true
   dateFormat = ""
   rssFeedDescription = "summary"
+  mainSections = []
 
 [params.author]
   avatar = "avatar.jpg"
