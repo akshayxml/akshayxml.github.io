@@ -193,4 +193,20 @@
     color: #d1d5db;
     border-color: #4b5563;
   }
+
+  .timeline-item.connected-next::after {
+    content: '';
+    position: absolute;
+    bottom: -2.05rem; /* Bridge the gap fully including border radius/margins */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 2.1rem;
+    background: #ffffff;
+    z-index: 1;
+  }
+
+  .dark .timeline-item.connected-next::after {
+    background: #1f2228;
+  }
 </style>

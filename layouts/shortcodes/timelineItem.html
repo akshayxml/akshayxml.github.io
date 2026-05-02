@@ -1,11 +1,11 @@
-<div class="timeline-item">
+<div class="timeline-item{{ if .Get "connect" }} connected-next{{ end }}">
   {{ if .Get "logo" }}
   {{ $logo := .Get "logo" }}
   {{ $title := .Get "title" }}
   <div class="timeline-avatar">
     <img src="{{ $logo }}" alt="{{ $title }} logo">
   </div>
-  {{ else }}
+  {{ else if not (.Get "hideIndicator") }}
   <div class="timeline-dot"></div>
   {{ end }}
   {{ with .Get "location" }}<div class="timeline-location">{{ . }}</div>{{ end }}

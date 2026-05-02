@@ -8,8 +8,14 @@ Here is a summary of my professional work experience.
 
 {{< timeline >}}
 
-{{< timelineItem title="Software Engineer II at Google" date="08/2024 - Present" location="Bengaluru, India" logo="/images/google.png" stack="Go, Kubernetes, Distributed Systems" >}}
-- Working with the Google Distributed Cloud air-gapped platform services team.
+{{< timelineItem title="Software Engineer III at Google" date="05/2026 - Present" location="Bengaluru, India" logo="/images/google.png" stack="Go, Kubernetes, Distributed Systems" connect="true" >}}
+- Working with the DNS team in Google Distributed Cloud air-gapped.
+{{< /timelineItem >}}
+
+{{< timelineItem title="Software Engineer II at Google" date="08/2024 - 05/2026" location="Bengaluru, India" stack="Go, Kubernetes, Distributed Systems" hideIndicator="true" >}}
+- Led the overhaul of the DNS testing strategy by designing a new, configuration-driven framework for CUJ tests. This work addressed the need for improved maintainability, extensibility, modularity and comprehensive negative testing.
+- Led the end-to-end development of the BOSH Ubuntu 24.04 (Noble) stemcell for GDCag, a critical dependency for SAP partners. I authored the initial design, drove the implementation across multiple code changes, resolved deployment blockers, and delivered the final GA release. 
+- Designed and implemented the migration of BOSH agent settings to the VMM Metadata Server. This initiative improved system scalability and I drove it from the initial design and proof-of-concept to authoring a detailed design to drive future quality improvements.
 {{< /timelineItem >}}
 
 {{< timelineItem title="Software Engineer at Media.net" date="07/2022 - 08/2024" location="Remote" logo="/images/media.net.png" stack="Java, NodeJS, Redis, Python, Kafka, Microservices">}}
