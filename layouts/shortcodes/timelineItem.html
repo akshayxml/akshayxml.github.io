@@ -9,7 +9,21 @@
   <div class="timeline-dot"></div>
   {{ end }}
   {{ with .Get "location" }}<div class="timeline-location">{{ . }}</div>{{ end }}
-  {{ with .Get "date" }}<div class="timeline-date">{{ . }}</div>{{ end }}
+  {{ $startDate := .Get "startDate" }}
+  {{ $endDate := .Get "endDate" }}
+  {{ if or $startDate $endDate }}
+  <div class="timeline-date">
+    {{ if $startDate }}{{ dateFormat "01/2006" $startDate }}{{ end }}
+    {{ if and $startDate $endDate }} - {{ end }}
+    {{ if $endDate }}
+    {{ if eq $endDate "Present" }}
+    Present
+    {{ else }}
+    {{ dateFormat "01/2006" $endDate }}
+    {{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
   {{ with .Get "title" }}<h3 class="timeline-title">{{ . }}</h3>{{ end }}
   {{ with .Get "stack" }}
   <div class="timeline-tech-container">
