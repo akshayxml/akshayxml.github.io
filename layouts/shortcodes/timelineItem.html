@@ -1,4 +1,4 @@
-<div class="timeline-item{{ if .Get "connect" }} connected-next{{ end }}">
+<div class="timeline-item{{ if .Get "connect" }} connected-next{{ end }}" data-start-date="{{ .Get "startDate" }}" data-end-date="{{ .Get "endDate" }}">
   {{ if .Get "logo" }}
   {{ $logo := .Get "logo" }}
   {{ $role := or (.Get "role") (.Get "title") }}
@@ -43,12 +43,12 @@
       
       {{ $yearsStr := "" }}
       {{ if gt $years 0 }}
-        {{ $yearsStr = printf "%d yr%s" $years (cond (gt $years 1) "s" "") }}
+        {{ $yearsStr = printf "%d year%s" $years (cond (gt $years 1) "s" "") }}
       {{ end }}
       
       {{ $monthsStr := "" }}
       {{ if gt $months 0 }}
-        {{ $monthsStr = printf "%d mo%s" $months (cond (gt $months 1) "s" "") }}
+        {{ $monthsStr = printf "%d month%s" $months (cond (gt $months 1) "s" "") }}
       {{ end }}
       
       {{ $durationStr = trim (printf "%s %s" $yearsStr $monthsStr) " " }}

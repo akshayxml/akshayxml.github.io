@@ -2,6 +2,11 @@ baseURL = 'https://akshayxml.com/'
 languageCode = 'en-us'
 title = 'Akshay M'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [module]
   [[module.imports]]
     path = "github.com/hugo-sid/hugo-blog-awesome"
