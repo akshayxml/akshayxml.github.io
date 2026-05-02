@@ -16,7 +16,6 @@
     top: 0;
     bottom: 0;
     left: 8px;
-    /* Alignment for the dot */
     width: 2px;
     background: #e5e7eb;
     border-radius: 1px;
@@ -43,7 +42,6 @@
   }
 
   .dark .timeline-item {
-    /* Using a nice dark slate for harmony with standard dark themes */
     background: #1f2228;
     border: 1px solid rgba(255, 255, 255, 0.05);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -57,16 +55,13 @@
     position: absolute;
     top: 1.5rem;
     left: -2rem;
-    /* Centers over the 2px line at left: 8px */
     width: 14px;
     height: 14px;
     border-radius: 50%;
     background: #4f46e5;
-    /* Nice indigo accent */
     border: 3px solid #ffffff;
     box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
     transform: translateX(1px);
-    /* micro-adjustment for perfection */
     transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
   }
 
@@ -89,13 +84,13 @@
 
   .timeline-avatar {
     position: absolute;
-    top: 1.0rem;
-    left: -40px; /* Aligns center with the 2px line at container left 8px */
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
+    top: 1.2rem;
+    left: -44px; /* Aligns center with the 2px line at container left 8px for 40px width */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Reverted to circle */
     background: #ffffff;
-    border: 2px solid #e5e7eb;
+    border: 1px solid #e5e7eb;
     box-shadow: 0 0 0 4px #ffffff;
     display: flex;
     align-items: center;
@@ -116,40 +111,52 @@
     box-shadow: 0 0 0 4px #1f2228;
   }
 
+  .timeline-title {
+    margin: 0 0 0.25rem 0 !important;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #111827;
+  }
+
+  .dark .timeline-title {
+    color: #f9fafb;
+  }
+
+  .timeline-subtitle {
+    font-size: 0.95rem;
+    color: #374151;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+  }
+
+  .dark .timeline-subtitle {
+    color: #d1d5db;
+  }
+
+  .timeline-company {
+    font-weight: 600;
+  }
+
   .timeline-date {
     font-size: 0.85rem;
-    font-weight: 600;
-    color: #4f46e5;
-    margin-bottom: 0.5rem;
-    display: inline-block;
-    padding: 0.2rem 0.6rem;
-    background: rgba(79, 70, 229, 0.08);
-    border-radius: 9999px;
-    letter-spacing: 0.025em;
+    font-weight: 500;
+    color: #6b7280;
+    margin-bottom: 0.25rem;
+    display: block;
   }
 
   .dark .timeline-date {
-    color: #818cf8;
-    background: rgba(129, 140, 248, 0.1);
+    color: #9ca3af;
   }
 
   .timeline-location {
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
     font-size: 0.85rem;
     color: #6b7280;
-    font-weight: 500;
+    margin-bottom: 0.75rem;
   }
 
   .dark .timeline-location {
     color: #9ca3af;
-  }
-
-  .timeline-title {
-    margin: 0 0 0.5rem 0 !important;
-    font-size: 1.3rem;
-    font-weight: 700;
   }
 
   .timeline-body {
@@ -176,6 +183,18 @@
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-bottom: 0.75rem;
+    align-items: center;
+  }
+
+  .timeline-tech-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #374151;
+    margin-right: 0.25rem;
+  }
+
+  .dark .timeline-tech-label {
+    color: #d1d5db;
   }
 
   .timeline-tech {
@@ -197,7 +216,7 @@
   .timeline-item.connected-next::after {
     content: '';
     position: absolute;
-    bottom: -2.05rem; /* Bridge the gap fully including border radius/margins */
+    bottom: -2.05rem;
     left: 50%;
     transform: translateX(-50%);
     width: 2px;

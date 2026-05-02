@@ -1,38 +1,83 @@
 <div class="timeline-item{{ if .Get "connect" }} connected-next{{ end }}">
   {{ if .Get "logo" }}
   {{ $logo := .Get "logo" }}
-  {{ $title := .Get "title" }}
+  {{ $role := or (.Get "role") (.Get "title") }}
   <div class="timeline-avatar">
-    <img src="{{ $logo }}" alt="{{ $title }} logo">
+    <img src="{{ $logo }}" alt="{{ $role }} logo">
   </div>
   {{ else if not (.Get "hideIndicator") }}
   <div class="timeline-dot"></div>
   {{ end }}
-  {{ with .Get "location" }}<div class="timeline-location">{{ . }}</div>{{ end }}
-  {{ $startDate := .Get "startDate" }}
-  {{ $endDate := .Get "endDate" }}
-  {{ if or $startDate $endDate }}
-  <div class="timeline-date">
-    {{ if $startDate }}{{ dateFormat "01/2006" $startDate }}{{ end }}
-    {{ if and $startDate $endDate }} - {{ end }}
-    {{ if $endDate }}
-    {{ if eq $endDate "Present" }}
-    Present
-    {{ else }}
-    {{ dateFormat "01/2006" $endDate }}
+  
+  <div class="timeline-content-wrapper">
+    {{ $role := or (.Get "role") (.Get "title") }}
+    {{ $startDate := .Get "startDate" }}
+    {{ $endDate := .Get "endDate" }}
+    
+    {{ with $role }}<h3 class="timeline-title">{{ . }}</h3>{{ end }}
+    
+    <div class="timeline-subtitle">
+      {{ with .Get "company" }}<span class="timeline-company">{{ . }}</span>{{ end }}
+      {{ with .Get "employmentType" }}<span class="timeline-sep"> · </span><span class="timeline-type">{{ . }}</span>{{ end }}
+    </div>
+
+    {{ $durationStr := "" }}
+    {{ if $startDate }}
+      {{ $start := time $startDate }}
+      {{ $end := now }}
+      {{ if and $endDate (ne $endDate "Present") }}
+        {{ $end = time $endDate }}
+      {{ end }}
+      
+      {{ $startYear := int ($start.Format "2006") }}
+      {{ $startMonth := int ($start.Format "1") }}
+      {{ $endYear := int ($end.Format "2006") }}
+      {{ $endMonth := int ($end.Format "1") }}
+      
+      {{ $yearsDiff := sub $endYear $startYear }}
+      {{ $monthsDiff := sub $endMonth $startMonth }}
+      {{ $totalMonths := add (add (mul $yearsDiff 12) $monthsDiff) 1 }}
+      
+      {{ $years := int (div $totalMonths 12) }}
+      {{ $months := int (mod $totalMonths 12) }}
+      
+      {{ $yearsStr := "" }}
+      {{ if gt $years 0 }}
+        {{ $yearsStr = printf "%d yr%s" $years (cond (gt $years 1) "s" "") }}
+      {{ end }}
+      
+      {{ $monthsStr := "" }}
+      {{ if gt $months 0 }}
+        {{ $monthsStr = printf "%d mo%s" $months (cond (gt $months 1) "s" "") }}
+      {{ end }}
+      
+      {{ $durationStr = trim (printf "%s %s" $yearsStr $monthsStr) " " }}
     {{ end }}
+
+    {{ if or $startDate $endDate }}
+    <div class="timeline-date">
+      {{ if $startDate }}{{ dateFormat "Jan 2006" $startDate }}{{ end }}
+      {{ if and $startDate $endDate }} – {{ end }}
+      {{ if $endDate }}
+        {{ if eq $endDate "Present" }}Present{{ else }}{{ dateFormat "Jan 2006" $endDate }}{{ end }}
+      {{ end }}
+      {{ with $durationStr }}<span class="timeline-duration"> · {{ . }}</span>{{ end }}
+    </div>
     {{ end }}
-  </div>
-  {{ end }}
-  {{ with .Get "title" }}<h3 class="timeline-title">{{ . }}</h3>{{ end }}
-  {{ with .Get "stack" }}
-  <div class="timeline-tech-container">
-    {{ range split . "," }}
-    <span class="timeline-tech">{{ trim . " " }}</span>
+
+    {{ with .Get "location" }}<div class="timeline-location">{{ . }}</div>{{ end }}
+
+    {{ with .Get "stack" }}
+    <div class="timeline-tech-container">
+      <span class="timeline-tech-label">Skills:</span>
+      {{ range split . "," }}
+      <span class="timeline-tech">{{ trim . " " }}</span>
+      {{ end }}
+    </div>
     {{ end }}
-  </div>
-  {{ end }}
-  <div class="timeline-body">
-    {{ .Inner | markdownify }}
+
+    <div class="timeline-body">
+      {{ .Inner | markdownify }}
+    </div>
   </div>
 </div>
