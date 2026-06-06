@@ -1,6 +1,7 @@
 baseURL = 'https://akshayxml.com/'
 languageCode = 'en-us'
 title = 'Akshay M'
+disableKinds = ["RSS"]
 
 [markup]
   [markup.goldmark]
@@ -48,6 +49,7 @@ title = 'Akshay M'
   avatar = "avatar.jpg"
   intro = "Akshay M"
   name = "Akshay M"
+  email = "akshayknr7@gmail.com"
   description = "Software Engineer"
 
 [[params.socialIcons]]
