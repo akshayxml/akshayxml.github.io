@@ -1,9 +1,8 @@
 {
   "build": {
     "env": {
-      "HUGO_VERSION": "0.152.2",
-      "GO_VERSION": "1.22.12"
+      "HUGO_VERSION": "0.152.2"
     }
   },
-  "buildCommand": "hugo --gc --minify"
+  "buildCommand": "curl -sL https://go.dev/dl/go1.22.12.linux-amd64.tar.gz | tar -xz && export PATH=$PWD/go/bin:$PATH && hugo --gc --minify"
 }
