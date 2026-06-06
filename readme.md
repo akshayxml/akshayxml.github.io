@@ -1,35 +1,43 @@
 ## 🚀 Deployment Guide 
 
-This site is built using Hugo and deployed to **Vercel** via the CLI using a single script.
+This site is built using Hugo and automatically deployed to **Vercel** whenever changes are pushed to the `main` branch on GitHub.
 
-### Prerequisites
-Before deploying, ensure you have the following installed locally:
-* [Hugo](https://gohugo.io/installation/) (Extended version recommended)
-* [Vercel CLI](https://vercel.com/docs/cli) (`npm i -g vercel`)
+### Local Development
+Before pushing, you can test the site locally:
+1. Make sure you have [Hugo](https://gohugo.io/installation/) installed.
+2. Run the local development server:
+   ```bash
+   hugo server
+   ```
 
-### Deployment Steps
-
-#### Option A: Automated (Recommended)
-To build your site, deploy to Vercel, and push the source code to GitHub in a single command, run the deployment script from the root directory:
+### Deploying Changes
+#### Automated (Recommended)
+Simply push your commits to GitHub:
 ```bash
-./deploy.sh
+git add .
+git commit -m "Your commit message"
+git push origin main
 ```
+Vercel is connected to the GitHub repository and will automatically trigger a build (using the build command defined in `vercel.json`) and deploy the updates to production.
 
-#### Option B: Manual Steps
-If you prefer to run the build and deployment steps manually:
+#### Manual
+If you want to manually deploy from your local environment (using Vercel CLI):
 
-1. **Build the site locally:**
-   Run the Hugo build command from the root of the repository to generate the static files in the `public` directory:
+1. **Option A: Run the deployment script**
    ```bash
-   hugo --minify
+   ./deploy.sh
    ```
 
-2. **Deploy to Vercel:**
-   Navigate into the generated `public` folder and push directly to Vercel production:
-   ```bash
-   cd public
-   vercel --prod
-   ```
+2. **Option B: Run steps manually**
+   * Build the site:
+     ```bash
+     hugo --minify
+     ```
+   * Deploy the generated `public` folder to Vercel:
+     ```bash
+     cd public
+     vercel --prod
+     ```
 
 ### DNS Configuration (Cloudflare)
-The custom domain for this project is managed via Cloudflare. Update DNS A and CNAME records when managing custom routing.
+The custom domain for this project is managed via Cloudflare. It is configured to point to Vercel.
