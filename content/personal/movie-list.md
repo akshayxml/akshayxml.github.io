@@ -10,4 +10,5 @@ This is a list of all the movies that I have watched. I don't think it will ever
 
 | Movie | Date Watched | Language | Rating |
 | :--- | :--- | :--- | :--- |
-| Drishyam 3 | June 2026 | Malayalam | 3/5 |
+| Drishyam 3 | 31 May 2026 | Malayalam | 3/5 |
+| Varnyathil Aashanka | 06 June 2026 | Malayalam | 3.5/5 |
