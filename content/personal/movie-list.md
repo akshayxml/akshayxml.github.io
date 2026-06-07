@@ -1,6 +1,6 @@
 ---
 title: "The list of movies that I have watched"
-date: 2026-06-06
+date: 2026-06-07
 tags: ["personal", "movies"]
 ---
 
@@ -12,3 +12,4 @@ This is a list of all the movies that I have watched. I don't think it will ever
 | :--- | :--- | :--- | :--- |
 | Drishyam 3 | 31 May 2026 | Malayalam | 3/5 |
 | Varnyathil Aashanka | 06 June 2026 | Malayalam | 3.5/5 |
+| Stand By Me | 07 June 2026 | English | 4/5 |
