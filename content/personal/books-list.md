@@ -4,7 +4,7 @@ date: 2026-06-18
 tags: ["personal", "books"]
 ---
 
-I take a lot of time to finish reading a book - something that I want to improve. This is just the list of books that I have read.
+I take a lot of time to finish reading a book - something that I want to improve. This is just the list of books that I have read since I started tracking (June 2026).
 
 | Book | Author | Date Finished | Genre | Rating |
 | :--- | :--- | :--- | :--- | :--- |
