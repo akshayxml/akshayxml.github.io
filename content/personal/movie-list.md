@@ -1,6 +1,6 @@
 ---
 title: "The list of movies that I have watched"
-date: 2026-06-26
+date: 2026-06-29
 tags: ["personal", "movies"]
 ---
 
@@ -17,3 +17,4 @@ This is a list of all the movies that I have watched. I don't think it will ever
 | Send Help | 20 June 2026 | English | 3.5/5 |
 | Athiradi | 20 June 2026 | Malayalam | 2/5 |
 | Triangle of Sadness| 25 June 2026 | English | 3.5/5 |
+| Patriot | 29 June 2026 | Malayalam | 2.5/5 |
