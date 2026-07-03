@@ -1,6 +1,6 @@
 ---
 title: "The list of movies that I have watched"
-date: 2026-06-29
+date: 2026-07-03
 tags: ["personal", "movies"]
 ---
 
@@ -18,3 +18,4 @@ This is a list of all the movies that I have watched. I don't think it will ever
 | Athiradi | 20 June 2026 | Malayalam | 2/5 |
 | Triangle of Sadness| 25 June 2026 | English | 3.5/5 |
 | Patriot | 29 June 2026 | Malayalam | 2.5/5 |
+| Mollywood Times | 03 July 2026 | Malayalam | 4/5 |
