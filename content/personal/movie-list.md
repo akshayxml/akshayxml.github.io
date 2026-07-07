@@ -1,6 +1,6 @@
 ---
 title: "The list of movies that I have watched"
-date: 2026-07-05
+date: 2026-07-07
 tags: ["personal", "movies"]
 ---
 
@@ -21,3 +21,4 @@ This is a list of all the movies that I have watched. I don't think it will ever
 | Mollywood Times | 03 July 2026 | Malayalam | 4/5 |
 | Obsession (2026)| 04 July 2026 | English | 3.5/5 |
 | Promising Young Woman| 05 July 2026 | English | 4/5 |
+| The Sheep Detectives| 07 July 2026 | English | 3.5/5 |
