@@ -1,6 +1,6 @@
 ---
 title: "The list of movies that I have watched"
-date: 2026-07-26
+date: 2026-08-01
 tags: ["personal", "movies"]
 ---
 
@@ -23,3 +23,4 @@ This is a list of all the movies that I have watched. I don't think it will ever
 | Promising Young Woman| 05 July 2026 | English | 4/5 |
 | The Sheep Detectives| 07 July 2026 | English | 3.5/5 |
 | It's What Inside | 26 July 2026 | English | 4/5 |
+| Spider-Man: Brand New Day | 01 August 2026 | English | 2.5/5 |
