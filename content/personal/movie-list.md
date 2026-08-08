@@ -1,6 +1,6 @@
 ---
 title: "The list of movies that I have watched"
-date: 2026-08-05
+date: 2026-08-08
 tags: ["personal", "movies"]
 ---
 
@@ -26,3 +26,4 @@ This is a list of all the movies that I have watched. I don't think it will ever
 | Spider-Man: Brand New Day | 01 August 2026 | English | 2.5/5 |
 | Balan: The Boy | 02 August 2026 | Malayalam | 4/5 |
 | Idiocracy (2006) | 05 August 2026 | English | 2/5 |
+| Anand Sreebala | 08 August 2026 | Malayalam | 3/5 |
