@@ -27,3 +27,4 @@ This is a list of all the movies that I have watched. I don't think it will ever
 | Balan: The Boy | 02 August 2026 | Malayalam | 4/5 |
 | Idiocracy (2006) | 05 August 2026 | English | 2/5 |
 | Anand Sreebala | 08 August 2026 | Malayalam | 3/5 |
+| Khalifa | 22 August 2026 | Malayalam | 2/5 |
