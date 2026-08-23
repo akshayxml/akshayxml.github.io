@@ -1,6 +1,6 @@
 ---
 title: "The list of movies that I have watched"
-date: 2026-08-08
+date: 2026-08-23
 tags: ["personal", "movies"]
 ---
 
@@ -28,3 +28,4 @@ This is a list of all the movies that I have watched. I don't think it will ever
 | Idiocracy (2006) | 05 August 2026 | English | 2/5 |
 | Anand Sreebala | 08 August 2026 | Malayalam | 3/5 |
 | Khalifa | 22 August 2026 | Malayalam | 2/5 |
+| Bethlehem Kudumba Unit | 23 August 2026 | Malayalam | 4/5 |
