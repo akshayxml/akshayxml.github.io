@@ -1,6 +1,6 @@
 ---
 title: "The list of movies that I have watched"
-date: 2026-08-23
+date: 2026-09-02
 tags: ["personal", "movies"]
 ---
 
@@ -29,3 +29,4 @@ This is a list of all the movies that I have watched. I don't think it will ever
 | Anand Sreebala | 08 August 2026 | Malayalam | 3/5 |
 | Khalifa | 22 August 2026 | Malayalam | 2/5 |
 | Bethlehem Kudumba Unit | 23 August 2026 | Malayalam | 4/5 |
+| Anomie | 02 September 2026 | Malayalam | 2.5/5 |
