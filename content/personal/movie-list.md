@@ -1,6 +1,6 @@
 ---
 title: "The list of movies that I have watched"
-date: 2026-10-11
+date: 2026-10-16
 tags: ["personal", "movies"]
 ---
 
@@ -33,4 +33,5 @@ This is a list of all the movies that I have watched. I don't think it will ever
 | Ee Kanni Koodi | 04 September 2026 | Malayalam | 3.5/5 |
 | The Darjeeling Limited | 08 October 2026 | English | 6.5/10 |
 | Pradhama Drishtya Kuttakkar| 10 October 2026 | Malayalam | 6.5/10 |
-| Secret Stories: Roslin| 11 October 2026 | Malayalam | 7.5/10 |
+| Secret Stories: Roslin | 11 October 2026 | Malayalam | 7.5/10 |
+| Aasha | 16 October 2026 | Malayalam | 8/10 |
