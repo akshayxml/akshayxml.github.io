@@ -1,6 +1,6 @@
 ---
 title: "The list of movies that I have watched"
-date: 2026-10-16
+date: 2026-10-18
 tags: ["personal", "movies"]
 ---
 
@@ -35,3 +35,4 @@ This is a list of all the movies that I have watched. I don't think it will ever
 | Pradhama Drishtya Kuttakkar| 10 October 2026 | Malayalam | 6.5/10 |
 | Secret Stories: Roslin | 11 October 2026 | Malayalam | 7.5/10 |
 | Aasha | 16 October 2026 | Malayalam | 8/10 |
+| Seven Psychopaths | 18 October 2026 | English | 7/10 |
