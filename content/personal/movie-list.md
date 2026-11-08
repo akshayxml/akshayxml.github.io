@@ -1,6 +1,6 @@
 ---
 title: "The list of movies that I have watched"
-date: 2026-10-23
+date: 2026-11-08
 tags: ["personal", "movies"]
 ---
 
@@ -37,3 +37,4 @@ This is a list of all the movies that I have watched. I don't think it will ever
 | Aasha | 16 October 2026 | Malayalam | 8/10 |
 | Seven Psychopaths | 18 October 2026 | English | 7/10 |
 | Dhoomakethu | 23 October 2026 | Malayalam | 8/10 |
+| The Invite | 08 November 2026 | English | 7.5/10 |
