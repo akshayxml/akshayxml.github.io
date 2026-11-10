@@ -39,3 +39,4 @@ This is a list of all the movies that I have watched. I don't think it will ever
 | Dhoomakethu | 23 October 2026 | Malayalam | 8/10 |
 | The Invite | 08 November 2026 | English | 7.5/10 |
 | Adolescence (Series) | 10 November 2026 | English | 9/10 |
+| Operation Olipporu (Short Film) | 10 November 2026 | Malayalam | 7.5/10 |
